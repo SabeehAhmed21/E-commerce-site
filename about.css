@@ -36,8 +36,8 @@ margin-bottom: 20px;
 display: flex;
 align-items: center;
 text-align: center;
-margin-left: 250px;
-margin-right: 150px;
+margin-left: 150px;
+margin-right: 360px;
 margin-bottom: 20px;
 }
 
@@ -72,6 +72,16 @@ h1{
   font-size: 20px; 
 }
 
+.para2{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 20px;
+  text-align: justify; 
+  font-size: 20px;
+}
+
 .para3{
   color: black;
   font-weight: bold;
@@ -80,14 +90,4 @@ h1{
   padding-right: 200px;
   text-align: justify;
   font-size: 20px; 
-}
-
-.para2{
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 200px;
-  text-align: justify; 
-  font-size: 20px;
 }
