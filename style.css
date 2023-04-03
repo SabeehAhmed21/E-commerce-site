@@ -12,7 +12,7 @@ nav{
     align-items: center;
     padding: 2rem 4rem;
     background-color: #fff;
-    /* margin-bottom: 3px;. */
+    margin-bottom: 1px;.
     /* margin: 0 10px; */
     position: fixed;
     top: 0;
@@ -107,11 +107,11 @@ button.btn-fashion
 {
     float: right;
     margin-left: 20px;
-    background-color: #9acd32;
+    background-color: #fff;
     font-weight: bold;
     text-align: center;
-    font-size: 16px;
-    color: #fff;
+    font-size: 14px;
+    color: #9acd32;
     padding: 8px;
     border: none;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ button.btn-fashion,
 button.btn-cosmetic,
 a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 
@@ -133,27 +133,39 @@ a{
     float: right;
 }
 .btn-left button{
-    background: #9acd32;
-    color: white;
-    border: none;
+  
+    /* border: none; */
     /* margin-right: 10px;
     margin-top: 10px; */
     padding: 5px 8px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    background: none;
+    border: 2px solid green;
+    border-radius: 11px;
 }
 
 .btn-right button{
-    background: #9acd32;
-    color: white;
-    border: none;
+    /* background: #9acd32; */
+    color: ;
+    /* border: none; */
     /* margin-left: 10px;
     margin-top: 10px; */
     padding: 5px 8px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+    background: none;
+    border: 2px solid green;
+    border-radius: 11px;
+
+}
+
+button a:hover{
+    
+    color: #9acd32;
+    /* text-decoration: #9acd32; */
 }
 
 
