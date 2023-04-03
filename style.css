@@ -12,7 +12,7 @@ nav{
     align-items: center;
     padding: 2rem 4rem;
     background-color: #fff;
-    margin-bottom: 1px;.
+    margin-bottom: 1px;
     /* margin: 0 10px; */
     position: fixed;
     top: 0;
@@ -148,8 +148,7 @@ a{
 
 .btn-right button{
     /* background: #9acd32; */
-    color: ;
-    /* border: none; */
+     /* border: none; */
     /* margin-left: 10px;
     margin-top: 10px; */
     padding: 5px 8px;
