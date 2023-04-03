@@ -12,7 +12,7 @@ nav{
     align-items: center;
     padding: 2rem 4rem;
     background-color: #fff;
-    margin-bottom: 3px;
+    /* margin-bottom: 3px;. */
     /* margin: 0 10px; */
     position: fixed;
     top: 0;
