@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
 </head>
 <body>
+
+
+    <div class="container">
 
     <!-- header and navigation bar -->
 
@@ -16,7 +21,10 @@
     <header>
         <!-- Navigation Bar Start -->
     <nav>            
-        <h2>ABC COLLECTION KING</h2>
+        <div class="row">
+            <div class="col-5">
+        <h2>ABC COLLECTION KING</h2></div>
+        <div class="col-7">
             <ul>
                 <li>  <a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>      
                 <li>  <a href="products.html"><i class="fa-solid fa-store"></i> Products</a></li>
@@ -25,34 +33,46 @@
                 <li><a href="aboutus.html"><i class="fa-solid fa-clipboard"></i> About Us</a></li>
                 <li><a href="form.html"><i class="fa-sharp fa-solid fa-envelope"></i> Contact Us</a></li>
             </ul>
+            </div>
+        </div>
     </nav>
         <!-- Navigation Bar End -->
     </header>
     <!-- Header End -->
 
+    </div>
 
     <!-- Banner Start -->
 
+    <div class="container"> 
+        <div class="row">
     <section class="banner-section">
         <div class="carousal">
             <!-- E-Commerce Website -->
         </div>
     </section>
+    </div>
+    </div>
 
-    <!-- Banner End -->
+    <!-- Banner End --> 
 
     <!-- main section of the body to show products -->
 
-    <section class="main-body">
+    <!-- <section class="main-body"> -->
+        <div class="container">
 
-        <section class="cosmetic-section">
-            <div class="category">
-                <h3>cosmetics</h3>      <!--Heading to highlight category by name-->
-                <button type="button" class="btn-cosmetic"><a href="products.html">Show More</a></button>      <!--Button to Show more products of the same category-->
-            </div>
+        <!-- <section class="cosmetic-section"> -->
+        <div class="row">
+            <!-- <div class="category"> -->
+               <div class="col"> <h3>cosmetics</h3> </div>      <!--Heading to highlight category by name-->
+                <div class="col"><button type="button" class="btn-cosmetic"><a href="products.html">Show More</a></button> </div>     <!--Button to Show more products of the same category-->
+        </div>
+        
 
         <!-- <div class="products">           Parent Div main container to show different catogories -->
-        <div class="cosmetics">         <!--Child Div to define Category-->
+        <!-- <div class="cosmetics">         Child Div to define Category -->
+            <div class="row">
+                <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="b.jpg" alt="">
@@ -74,8 +94,10 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>           <!--SubChild Div to show product pic and details-->
+            </div>
+
             
-            
+            <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="jewelary.jpg" alt="">
@@ -97,8 +119,10 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>           <!--SubChild Div to show product pic and details-->
+            </div>
             
-            
+
+        <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="jj.jpg" alt="">
@@ -119,9 +143,11 @@
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
-            </div>           <!--SubChild Div to show product pic and details-->
-            
-            
+            </div>         <!--SubChild Div to show product pic and details-->  
+        </div>
+        
+        
+            <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="jjj.jpg" alt="">
@@ -144,16 +170,34 @@
                 </div>
             </div>           <!--SubChild Div to show product pic and details-->        
         </div>      <!--Child div End-->
-    </section>
+    <!-- </section> -->
+    </div>
 
- <section class="mart-section">
+
+<!-- First row end  -->
+
+
+
+
+<!-- Second row start  -->
+
+ <!-- <section class="mart-section"> -->
+
     
-<div class="category">
-    <h3>Mart</h3>           <!--Heading to highlight category by name-->
-    <button type="button" class="btn-mart"><a href="products.html">Show More</a></button>        <!--Button to Show more products of the same category-->
-</div>      
-    <div class="mart">          <!--Child Div to define Category-->
-            <div class="p">
+
+<!-- <div class="category"> -->
+
+<div class="row">
+    <div class="col"> <h3>Mart</h3></div>          <!--Heading to highlight category by name-->
+    <div class="col"> <button type="button" class="btn-mart"><a href="products.html">Show More</a></button> </div>       <!--Button to Show more products of the same category-->
+</div>    
+
+
+    <!-- <div class="mart">          Child Div to define Category -->
+
+<div class="row">
+    <div class="col-3">
+        <div class="p">
                 <div class="image">
                 <img src="jww.jpg" alt="">
                 </div>
@@ -172,10 +216,12 @@
 
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
-                </div>
-            
+                </div> 
             </div>       <!--SubChild Div to show product pic and details-->
-            
+    </div>
+
+
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="lap.jpg" alt="">
@@ -197,8 +243,10 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>       <!--SubChild Div to show product pic and details-->
-            
-            
+    </div>
+
+
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="lltt.jpg" alt="">
@@ -219,9 +267,11 @@
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
-            </div>       <!--SubChild Div to show product pic and details-->
-            
-            
+            </div>      <!-- SubChild Div to show product pic and details -->
+    </div> 
+
+    
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="lptp.jpg" alt="">
@@ -243,18 +293,37 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>       <!--SubChild Div to show product pic and details-->
-        
-        </div>       <!--Child div End-->
-    </section>
+    </div>       
+</div>
     
+    <!--Child div End-->
+    <!-- </section> -->
     
-    <section class="fashion-section">
-<div class="category">
-    <h3>Fashion</h3>        <!--Heading to highlight category by name-->
-    <button type="button" class="btn-fashion"><a href="products.html">Show More</a></button>        <!--Button to Show more products of the same category-->
+    <!-- </div> -->
+<!-- second row ended  -->
+
+
+    
+
+<!-- Third row started -->
+
+<!-- <section class="fashion-section"> -->
+
+
+
+<!-- <div class="category"> -->
+
+<div class="row">
+  <div class="col">  <h3>Fashion</h3>   </div>     <!--Heading to highlight category by name-->
+  <div class="col"> <button type="button" class="btn-fashion"><a href="products.html">Show More</a></button>  </div>      <!--Button to Show more products of the same category-->
 </div>       
-    <div class="fashion">       <!--Child Div to define Category-->
-            <div class="p">
+
+    <!-- <div class="fashion">       Child Div to define Category -->
+
+<div class="row">
+
+    <div class="col-3">
+        <div class="p">
                 <div class="image">
                 <img src="lt.jpg" alt="">
                 </div>
@@ -274,9 +343,11 @@
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
-            </div>       <!--SubChild Div to show product pic and details-->
+        </div>      <!-- SubChild Div to show product pic and details-->
+    </div>
 
 
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="top.jpg" alt="">
@@ -299,8 +370,10 @@
                 </div>
 
             </div>       <!--SubChild Div to show product pic and details-->
+    </div>       
             
-            
+
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="w.jpg" alt="">
@@ -323,8 +396,10 @@
                 </div>
            
             </div>       <!--SubChild Div to show product pic and details-->
-           
-           
+    </div>  
+    
+    
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="ww.jpg" alt="">
@@ -345,21 +420,36 @@
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
-            
             </div>       <!--SubChild Div to show product pic and details-->
-        </div>       <!--Child div End-->
-    </section>
+    </div>  
+</div>
+        
+        
+     <!-- Third row ended     -->
+        
+        <!--Child div End-->
+    <!-- </section> -->
 
-    <section class="food-section">    
 
-<div class="category">
-    <h3>Food</h3>       <!--Heading to highlight category by name-->
-    <button type="button" class="btn-food"><a href="products.html">Show More</a></button>    <!--Button to Show more products of the same category-->
+
+
+    <!-- Fourth Row Started  -->
+
+
+    <!-- <section class="food-section">     -->
+
+<!-- <div class="category">-->
+
+<div class="row">
+    <div class="col"> <h3>Food</h3> </div>      <!--Heading to highlight category by name-->
+    <div class="col"><button type="button" class="btn-food"><a href="products.html">Show More</a></button></div>    <!--Button to Show more products of the same category-->
 </div>    
-    <div class="food">      <!--Child Div to define Category-->
+    <!-- <div class="food">      Child Div to define Category -->
     
+<div class="row">
+
+    <div class="col-3">
         <div class="p">
-    
             <div class="image">
                 <img src="www.jpg" alt="">
                 </div>
@@ -382,6 +472,11 @@
 
             </div>       <!--SubChild Div to show product pic and details-->
 
+    </div>
+    
+    
+
+    <div class="col-3">
             <div class="p">
 
                 <div class="image">
@@ -404,7 +499,10 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>       <!--SubChild Div to show product pic and details-->
-            
+    </div>
+    
+    
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="lap.jpg" alt="">
@@ -425,8 +523,11 @@
                 <div class="btn-right">
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
-            </div>       <!--SubChild Div to show product pic and details-->
-            
+            </div>      <!-- SubChild Div to show product pic and details -->
+    </div>
+    
+    
+    <div class="col-3">
             <div class="p">
                 <div class="image">
                 <img src="lltt.jpg" alt="">
@@ -448,39 +549,67 @@
                     <button type="button"><a href="cartProducts.html">Buy Now</a></button>
                 </div>
             </div>       <!--SubChild Div to show product pic and details-->
-        </div>       <!--Child div End-->
-    </div>      <!--Parent Div End-->
-</section>
+    </div>  
+        
+</div>
+        
+        <!-- Fourth Row ended  -->
+        
+        
+        <!--Child div End-->
+    <!-- </div>    Parent Div End -->
+<!-- </section> -->
 
-</section>
+<!-- </section> -->
+
+<!-- </div> -->
+
+</div>    <!--End of main container-->
+
+
+
     <!-- footer section of the page -->
 
-    <footer>
-        <div class="about">         <!--Div for defining about us section in footer-->
+<div class="container">
+    <!-- <footer> -->
+      
+      <div class="row">
+        <div class="col">
+        <!-- <div class="about">         Div for defining about us section in footer -->
             <h2>Some Links</h2>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
+        <!-- </div> -->
         </div>
 
-        <div class="contact">       <!--Div for contact us via email facebook and other social media networks-->
+        <div class="col">
+        <!-- <div class="contact">       Div for contact us via email facebook and other social media networks -->
             <h2>Some Links</h2>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
-
+        <!-- </div> -->
         </div>
 
-        <div class="navigation">    <!--Div for navigation in footer-->
+        <div class="col">
+        <!-- <div class="navigation">    Div for navigation in footer -->
             <h2>Some Liks</h2>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
             <p>LINK</p>
+        <!-- </div> -->
         </div>
-    </footer>
+
+    </div>
+    <!-- </footer> -->
+</div>
     <!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
